@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
-    "section": "",
-    "text": "📄 Read the Full Paper\n\n\n\nThe complete 20-page research paper is available as a PDF.\nRead in browser   ⬇ Download PDF"
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
-    "section": "Overview",
-    "text": "Overview\nThis project examines whether the current U.S. regulatory framework adequately protects Buy Now, Pay Later (BNPL) consumers. Using CFPB complaint data, natural language processing of consumer narratives, and a structured regulatory gap analysis, the project documents the scope of consumer harm and evaluates the adequacy of the existing legal framework."
-  },
-  {
-    "objectID": "index.html#abstract",
-    "href": "index.html#abstract",
-    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
-    "section": "Abstract",
-    "text": "Abstract\nBuy Now, Pay Later (BNPL) services have reshaped consumer credit in the United States. Younger consumers are especially drawn to platforms like Klarna and Affirm because they offer a frictionless, often “interest-free” alternative to traditional credit, typically without a hard credit check. But that ease of use can make BNPL feel low-risk, encouraging consumers to take on multiple simultaneous loans without fully understanding the obligations involved.\nA major concern is the regulatory gap surrounding these products. Because BNPL providers often classify their offerings as deferred payments rather than loans, they generally fall outside the Truth in Lending Act (TILA), the main federal law governing consumer credit disclosure. As a result, millions of Americans use credit products without the protections credit card users receive, including standardized APR disclosure, clear cost-of-credit statements, and guaranteed dispute rights.\nThis project examines whether the current regulatory framework adequately protects BNPL consumers through three methods: (1) exploratory data analysis of CFPB consumer complaint data to track complaint trends and common issues; (2) natural language processing of complaint narratives to identify recurring harms in consumers’ own words; and (3) a structured regulatory gap analysis comparing BNPL disclosure practices with TILA requirements for credit card issuers. Together, these analyses support policy recommendations aimed at closing the regulatory gap while preserving the accessibility benefits BNPL can provide."
-  },
-  {
-    "objectID": "index.html#project-navigation",
-    "href": "index.html#project-navigation",
-    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
-    "section": "Project Navigation",
-    "text": "Project Navigation\n\nIntroduction\nData Sources\nExploratory Data Analysis\nNLP Analysis — TF-IDF\nNLP Analysis — Regulatory Terms\nNLP Analysis — LDA Topic Modeling\nRegulatory Gap Analysis\nPolicy Recommendations\nConclusions\n📄 Full Paper (PDF)"
-  },
-  {
     "objectID": "policy/policy.html",
     "href": "policy/policy.html",
     "title": "Policy Recommendations",
@@ -154,39 +126,102 @@
     "text": "The Asymmetry of Legal Literacy\nThe data reveal a form of asymmetry worth making explicit. Consumers routinely use the vocabulary of rights they have:\n\n“Dispute” (38.5%) — FCBA and FCRA territory\n“FCRA” and “credit bureau” (19.8%) — established federal law\n“Fraud” and “identity theft” (25.7%) — protected under multiple federal statutes\n\nThey do not use the vocabulary of rights they lack for BNPL, even though those same concepts would apply to the same transactions if they had been made on a credit card:\n\n“APR” (part of the 3.1%)\n“Finance charge” (part of the 3.1%)\n“Annual percentage rate” (part of the 3.1%)\n\nThis is not a linguistic coincidence. It is the empirical footprint of a regulatory gap."
   },
   {
-    "objectID": "introduction/introduction.html",
-    "href": "introduction/introduction.html",
-    "title": "Introduction",
+    "objectID": "conclusions/conclusion.html",
+    "href": "conclusions/conclusion.html",
+    "title": "Conclusions",
     "section": "",
-    "text": "Buy Now Pay Later has emerged as one of the fastest-growing segments of consumer finance in the United States. Between 2019 and 2023, BNPL loan originations expanded dramatically, with six major lenders alone originating 335.8 million loans totaling $45.2 billion in 2023, at an average loan size of $135 [1]. The appeal of BNPL is generally straightforward: consumers split a purchase into four equal, interest-free installments with no hard credit check and near-instant approval at the digital checkout. For consumers who are credit-constrained or credit-averse, BNPL functions as a practical and psychologically accessible alternative to traditional credit."
+    "text": "This project has documented, through quantitative analysis of 13,396 CFPB complaints and 4,791 consumer narratives, that BNPL services are generating significant and growing consumer harm, and that the existing regulatory framework provides consumers almost no mechanism for redress.\n\nComplaint volume grew by more than 100% per year between 2023 and 2025\nCredit reporting errors are the most common category of harm\nCompanies provide substantive relief in fewer than 1% of cases\nConsumers cannot invoke TILA protections because those protections do not apply\nThe language consumers use in their own narratives — “dispute,” “credit report,” “inaccurate,” “FCRA” — maps precisely onto the rights they have under existing law for other credit products, and precisely onto the rights they lack for BNPL"
   },
   {
-    "objectID": "introduction/introduction.html#bnpls-rise-in-consumer-finance",
-    "href": "introduction/introduction.html#bnpls-rise-in-consumer-finance",
-    "title": "Introduction",
+    "objectID": "conclusions/conclusion.html#what-the-evidence-shows",
+    "href": "conclusions/conclusion.html#what-the-evidence-shows",
+    "title": "Conclusions",
     "section": "",
-    "text": "Buy Now Pay Later has emerged as one of the fastest-growing segments of consumer finance in the United States. Between 2019 and 2023, BNPL loan originations expanded dramatically, with six major lenders alone originating 335.8 million loans totaling $45.2 billion in 2023, at an average loan size of $135 [1]. The appeal of BNPL is generally straightforward: consumers split a purchase into four equal, interest-free installments with no hard credit check and near-instant approval at the digital checkout. For consumers who are credit-constrained or credit-averse, BNPL functions as a practical and psychologically accessible alternative to traditional credit."
+    "text": "This project has documented, through quantitative analysis of 13,396 CFPB complaints and 4,791 consumer narratives, that BNPL services are generating significant and growing consumer harm, and that the existing regulatory framework provides consumers almost no mechanism for redress.\n\nComplaint volume grew by more than 100% per year between 2023 and 2025\nCredit reporting errors are the most common category of harm\nCompanies provide substantive relief in fewer than 1% of cases\nConsumers cannot invoke TILA protections because those protections do not apply\nThe language consumers use in their own narratives — “dispute,” “credit report,” “inaccurate,” “FCRA” — maps precisely onto the rights they have under existing law for other credit products, and precisely onto the rights they lack for BNPL"
   },
   {
-    "objectID": "introduction/introduction.html#the-structural-asymmetry",
-    "href": "introduction/introduction.html#the-structural-asymmetry",
-    "title": "Introduction",
-    "section": "The Structural Asymmetry",
-    "text": "The Structural Asymmetry\nYet this accessibility comes with a malformed structural asymmetry that became controversial upon regulators. Unlike credit cards, which are explicitly governed by the Truth in Lending Act (TILA, 15 U.S.C. §§1601 et seq.) and its implementing Regulation Z (12 CFR Part 1026), BNPL products occupy an ambiguous legal category.\nBecause BNPL products are typically structured as four-installment, zero-interest deferred payment agreements rather than conventional loans, they have historically fallen outside TILA’s mandatory disclosure requirements [2,3]. The result is that millions of Americans are using credit products with none of the transparency protections automatically afforded to credit card users:\n\nNo mandatory APR disclosure\nNo standardized cost-of-credit statement\nNo legally guaranteed right to dispute charges"
+    "objectID": "conclusions/conclusion.html#the-gap-is-not-accidental",
+    "href": "conclusions/conclusion.html#the-gap-is-not-accidental",
+    "title": "Conclusions",
+    "section": "The Gap Is Not Accidental",
+    "text": "The Gap Is Not Accidental\nThe regulatory gap analysis confirms that this asymmetry is not incidental. Across all seven disclosure dimensions evaluated, BNPL products either entirely lack or only partially satisfy the requirements that Regulation Z imposes on credit card issuers.\nThe gap is not a technicality; it is a deliberate product design feature that transfers risk from lenders to consumers, and it is growing as the market grows."
   },
   {
-    "objectID": "introduction/introduction.html#research-question-and-approach",
-    "href": "introduction/introduction.html#research-question-and-approach",
-    "title": "Introduction",
-    "section": "Research Question and Approach",
-    "text": "Research Question and Approach\nThis project aims to investigate whether the current regulatory framework adequately protects BNPL consumers. Using CFPB complaint data, natural language processing of consumer narratives, and a structured regulatory gap analysis, the project documents the scope of consumer harm and evaluates the adequacy of the existing legal framework. The analysis concludes with policy recommendations."
+    "objectID": "conclusions/conclusion.html#a-path-forward",
+    "href": "conclusions/conclusion.html#a-path-forward",
+    "title": "Conclusions",
+    "section": "A Path Forward",
+    "text": "A Path Forward\nThe three policy recommendations in this project would close the most consequential dimensions of that gap without foreclosing the genuine accessibility benefits that BNPL has brought to underserved consumers:\n\nTILA extension\nMandatory reporting transparency\nFederal dispute resolution standard\n\nThe evidence presented here provides the empirical foundation policymakers need to act. The tools already exist; what is needed is the will to use them."
   },
   {
-    "objectID": "introduction/introduction.html#literature-review",
-    "href": "introduction/introduction.html#literature-review",
-    "title": "Introduction",
-    "section": "Literature Review",
-    "text": "Literature Review\n\nMarket Growth\nThe BNPL market has grown rapidly since 2019, when it first gained significant traction in the United States. By 2022, more than one-fifth (21.2%) of consumers with a credit record had used a BNPL loan at least once, up from 17.6% in 2021 [4].\n\n\nWho Uses BNPL\nCFPB research has documented that BNPL borrowers are disproportionately drawn from financially vulnerable populations:\n\nBlack, Hispanic, and female consumers are significantly more likely to use BNPL compared to white, non-Hispanic, and male consumers\nUsage is highest among households earning between $20,001 and $50,000 annually [5]\nApproximately 63% of BNPL borrowers held multiple simultaneous BNPL loans at some point during 2022 [4]\n\nThe CFPB flagged this multi-loan pattern as a significant risk given the absence of any cross-lender reporting infrastructure.\n\n\nYoung Borrowers’ Exposure\nYounger borrowers are particularly exposed. Among borrowers aged 18–24, BNPL purchases constituted 28% of total unsecured consumer debt during active borrowing months, compared to an average of 17% across all age groups [4]. This concentration of BNPL debt among younger, lower-income, and minority consumers raises important equity concerns about who bears the costs of regulatory inaction."
+    "objectID": "conclusions/conclusion.html#limitations",
+    "href": "conclusions/conclusion.html#limitations",
+    "title": "Conclusions",
+    "section": "Limitations",
+    "text": "Limitations\nSeveral limitations exist in this research:\nScope of the complaint database. The CFPB complaint database captures only consumers who filed a formal federal complaint, likely underrepresenting the true scope of harm. Many consumers never file.\nPartial narrative coverage. Complaint narratives are available for only 36% of the dataset (those where the consumer provided consent), so NLP findings should be interpreted as indicative rather than exhaustive.\nDocumentation limits. The regulatory gap analysis relies on publicly available company documentation and may not fully reflect internal practices.\nTwo-provider focus. The analysis covers two providers only (Affirm and Klarna), and findings may not generalize to the broader BNPL market."
+  },
+  {
+    "objectID": "conclusions/conclusion.html#future-research",
+    "href": "conclusions/conclusion.html#future-research",
+    "title": "Conclusions",
+    "section": "Future Research",
+    "text": "Future Research\nFuture research should:\n\nExamine the BNPL industry as a whole\nIncorporate consumer-level data to assess long-term credit impacts of BNPL use\nEvaluate the equity implications of any regulatory intervention\nTrack policy adoption and measure outcomes post-implementation"
+  },
+  {
+    "objectID": "data_source/data_source.html",
+    "href": "data_source/data_source.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "The primary dataset is the CFPB Consumer Complaint Database, a publicly available repository of consumer complaints regarding financial products and services. Complaints are submitted by consumers directly and forwarded to the relevant company for response. The database includes structured fields (complaint type, company response, timeliness of response) as well as unstructured consumer-authored narratives, which are included when the consumer provides consent.\nSource: CFPB Consumer Complaint Database"
+  },
+  {
+    "objectID": "data_source/data_source.html#primary-dataset-cfpb-consumer-complaint-database",
+    "href": "data_source/data_source.html#primary-dataset-cfpb-consumer-complaint-database",
+    "title": "Data Sources",
+    "section": "",
+    "text": "The primary dataset is the CFPB Consumer Complaint Database, a publicly available repository of consumer complaints regarding financial products and services. Complaints are submitted by consumers directly and forwarded to the relevant company for response. The database includes structured fields (complaint type, company response, timeliness of response) as well as unstructured consumer-authored narratives, which are included when the consumer provides consent.\nSource: CFPB Consumer Complaint Database"
+  },
+  {
+    "objectID": "data_source/data_source.html#scope-and-coverage",
+    "href": "data_source/data_source.html#scope-and-coverage",
+    "title": "Data Sources",
+    "section": "Scope and Coverage",
+    "text": "Scope and Coverage\nThe analysis focuses on complaints filed against Affirm Holdings, Inc. and Klarna AB, the two largest BNPL providers in the U.S. market, covering the period from January 2023 through April 2026. This window captures the period of significant BNPL market expansion documented in CFPB market reports [1] and encompasses the period during which the CFPB’s interpretive rule was issued and contested.\nThe final dataset contains 13,396 complaints:\n\n\n\nProvider\nNumber of Complaints\n\n\n\n\nAffirm Holdings, Inc.\n11,755\n\n\nKlarna AB\n1,641\n\n\nTotal\n13,396\n\n\n\nNarratives with consumer consent: 4,791 (36% of dataset)."
+  },
+  {
+    "objectID": "data_source/data_source.html#regulatory-documentation",
+    "href": "data_source/data_source.html#regulatory-documentation",
+    "title": "Data Sources",
+    "section": "Regulatory Documentation",
+    "text": "Regulatory Documentation\nFor the regulatory gap analysis, three categories of primary source documentation are used.\n\nTILA / Regulation Z Requirements\nTILA and Regulation Z requirements are drawn from the Code of Federal Regulations (12 CFR Part 1026), specifically provisions:\n\n\n\nSection\nPurpose\n\n\n\n\n§1026.6\nAccount-opening disclosures\n\n\n§1026.7\nPeriodic statements\n\n\n§1026.13\nBilling error rights\n\n\n§1026.60\nCredit card application disclosures\n\n\n§1026.51\nAbility-to-pay assessment\n\n\n\n\n\nAffirm Disclosure Practices\n\nAffirm General Terms of Service\nAffirm Privacy Policy\n\n\n\nKlarna Disclosure Practices\n\nKlarna User Terms\nKlarna Privacy Notice"
+  },
+  {
+    "objectID": "data_source/data_source.html#data-processing",
+    "href": "data_source/data_source.html#data-processing",
+    "title": "Data Sources",
+    "section": "Data Processing",
+    "text": "Data Processing\nComplaints were downloaded via the CFPB’s public API and filtered for:\n\nCompany name containing “Affirm” or “Klarna”\nDate range: 2023-01-01 to 2026-04-30\nValid complaint issue classification\n\nAll processing and analysis was conducted in Python using pandas, scikit-learn (for TF-IDF and LDA), and matplotlib/seaborn for visualization."
+  },
+  {
+    "objectID": "paper/paper.html",
+    "href": "paper/paper.html",
+    "title": "Full Paper",
+    "section": "",
+    "text": "The complete research paper is embedded below. You can read it directly in your browser, open it in a new tab, or download a copy for offline reading.\n📄 Download PDF     🔗 Open in new tab"
+  },
+  {
+    "objectID": "paper/paper.html#paper-details",
+    "href": "paper/paper.html#paper-details",
+    "title": "Full Paper",
+    "section": "Paper Details",
+    "text": "Paper Details\n\nTitle: Buy Now Pay Later (BNPL) Regulatory Gap: Evidence for Consumer Protection Reform from CFPB Complaints\nAuthor: Zoo un Park\nCourse: DSAN 5450 — Data Ethics and Policy\nInstitution: Georgetown University\nPages: 20"
+  },
+  {
+    "objectID": "paper/paper.html#related-pages",
+    "href": "paper/paper.html#related-pages",
+    "title": "Full Paper",
+    "section": "Related Pages",
+    "text": "Related Pages\nFor interactive exploration of the findings, see:\n\nIntroduction\nExploratory Data Analysis\nNLP Analysis — TF-IDF\nNLP Analysis — LDA Topic Modeling\nRegulatory Gap Analysis\nPolicy Recommendations\nConclusions"
   },
   {
     "objectID": "EDA/eda.html",
@@ -231,102 +266,67 @@
     "text": "Quadrant Analysis: Volume vs. Relief\nPlotting each product category along two dimensions simultaneously — complaint volume (x-axis) and relief rate (y-axis) — reveals where harm concentrates.\n\n\n\n\n\n\nFigure 5: Complaint Volume vs. Relief Rate by Product Category. Source: CFPB Consumer Complaint Database.\n\n\n\nCredit Reporting and Debt Collection occupy the most problematic quadrant: high complaints, low relief. Credit Reporting alone accounts for over 5,200 complaints while carrying a near-zero relief rate of approximately 0.1%. Debt Collection follows a similar pattern at roughly 3,500 complaints and 0.2% relief. These two categories together represent the dominant harm profile in the BNPL complaint.\nPersonal Loan/BNPL sits at the boundary between quadrants, with approximately 2,800 complaints and a 1.4% relief rate that places it just above the median relief threshold. While technically classified as “High complaints + High relief” by the median cutoff, this categorization is misleading: a 1.4% relief rate means that for every 100 BNPL consumers who file a complaint, fewer than two receive any substantive resolution."
   },
   {
-    "objectID": "paper/paper.html",
-    "href": "paper/paper.html",
-    "title": "Full Paper",
+    "objectID": "introduction/introduction.html",
+    "href": "introduction/introduction.html",
+    "title": "Introduction",
     "section": "",
-    "text": "The complete research paper is embedded below. You can read it directly in your browser, open it in a new tab, or download a copy for offline reading.\n📄 Download PDF     🔗 Open in new tab"
+    "text": "Buy Now Pay Later has emerged as one of the fastest-growing segments of consumer finance in the United States. Between 2019 and 2023, BNPL loan originations expanded dramatically, with six major lenders alone originating 335.8 million loans totaling $45.2 billion in 2023, at an average loan size of $135 [1]. The appeal of BNPL is generally straightforward: consumers split a purchase into four equal, interest-free installments with no hard credit check and near-instant approval at the digital checkout. For consumers who are credit-constrained or credit-averse, BNPL functions as a practical and psychologically accessible alternative to traditional credit."
   },
   {
-    "objectID": "paper/paper.html#paper-details",
-    "href": "paper/paper.html#paper-details",
-    "title": "Full Paper",
-    "section": "Paper Details",
-    "text": "Paper Details\n\nTitle: Buy Now Pay Later (BNPL) Regulatory Gap: Evidence for Consumer Protection Reform from CFPB Complaints\nAuthor: Zoo un Park\nCourse: DSAN 5450 — Data Ethics and Policy\nInstitution: Georgetown University\nPages: 20"
-  },
-  {
-    "objectID": "paper/paper.html#related-pages",
-    "href": "paper/paper.html#related-pages",
-    "title": "Full Paper",
-    "section": "Related Pages",
-    "text": "Related Pages\nFor interactive exploration of the findings, see:\n\nIntroduction\nExploratory Data Analysis\nNLP Analysis — TF-IDF\nNLP Analysis — LDA Topic Modeling\nRegulatory Gap Analysis\nPolicy Recommendations\nConclusions"
-  },
-  {
-    "objectID": "data_source/data_source.html",
-    "href": "data_source/data_source.html",
-    "title": "Data Sources",
+    "objectID": "introduction/introduction.html#bnpls-rise-in-consumer-finance",
+    "href": "introduction/introduction.html#bnpls-rise-in-consumer-finance",
+    "title": "Introduction",
     "section": "",
-    "text": "The primary dataset is the CFPB Consumer Complaint Database, a publicly available repository of consumer complaints regarding financial products and services. Complaints are submitted by consumers directly and forwarded to the relevant company for response. The database includes structured fields (complaint type, company response, timeliness of response) as well as unstructured consumer-authored narratives, which are included when the consumer provides consent.\nSource: CFPB Consumer Complaint Database"
+    "text": "Buy Now Pay Later has emerged as one of the fastest-growing segments of consumer finance in the United States. Between 2019 and 2023, BNPL loan originations expanded dramatically, with six major lenders alone originating 335.8 million loans totaling $45.2 billion in 2023, at an average loan size of $135 [1]. The appeal of BNPL is generally straightforward: consumers split a purchase into four equal, interest-free installments with no hard credit check and near-instant approval at the digital checkout. For consumers who are credit-constrained or credit-averse, BNPL functions as a practical and psychologically accessible alternative to traditional credit."
   },
   {
-    "objectID": "data_source/data_source.html#primary-dataset-cfpb-consumer-complaint-database",
-    "href": "data_source/data_source.html#primary-dataset-cfpb-consumer-complaint-database",
-    "title": "Data Sources",
+    "objectID": "introduction/introduction.html#the-structural-asymmetry",
+    "href": "introduction/introduction.html#the-structural-asymmetry",
+    "title": "Introduction",
+    "section": "The Structural Asymmetry",
+    "text": "The Structural Asymmetry\nYet this accessibility comes with a malformed structural asymmetry that became controversial upon regulators. Unlike credit cards, which are explicitly governed by the Truth in Lending Act (TILA, 15 U.S.C. §§1601 et seq.) and its implementing Regulation Z (12 CFR Part 1026), BNPL products occupy an ambiguous legal category.\nBecause BNPL products are typically structured as four-installment, zero-interest deferred payment agreements rather than conventional loans, they have historically fallen outside TILA’s mandatory disclosure requirements [2,3]. The result is that millions of Americans are using credit products with none of the transparency protections automatically afforded to credit card users:\n\nNo mandatory APR disclosure\nNo standardized cost-of-credit statement\nNo legally guaranteed right to dispute charges"
+  },
+  {
+    "objectID": "introduction/introduction.html#research-question-and-approach",
+    "href": "introduction/introduction.html#research-question-and-approach",
+    "title": "Introduction",
+    "section": "Research Question and Approach",
+    "text": "Research Question and Approach\nThis project aims to investigate whether the current regulatory framework adequately protects BNPL consumers. Using CFPB complaint data, natural language processing of consumer narratives, and a structured regulatory gap analysis, the project documents the scope of consumer harm and evaluates the adequacy of the existing legal framework. The analysis concludes with policy recommendations."
+  },
+  {
+    "objectID": "introduction/introduction.html#literature-review",
+    "href": "introduction/introduction.html#literature-review",
+    "title": "Introduction",
+    "section": "Literature Review",
+    "text": "Literature Review\n\nMarket Growth\nThe BNPL market has grown rapidly since 2019, when it first gained significant traction in the United States. By 2022, more than one-fifth (21.2%) of consumers with a credit record had used a BNPL loan at least once, up from 17.6% in 2021 [4].\n\n\nWho Uses BNPL\nCFPB research has documented that BNPL borrowers are disproportionately drawn from financially vulnerable populations:\n\nBlack, Hispanic, and female consumers are significantly more likely to use BNPL compared to white, non-Hispanic, and male consumers\nUsage is highest among households earning between $20,001 and $50,000 annually [5]\nApproximately 63% of BNPL borrowers held multiple simultaneous BNPL loans at some point during 2022 [4]\n\nThe CFPB flagged this multi-loan pattern as a significant risk given the absence of any cross-lender reporting infrastructure.\n\n\nYoung Borrowers’ Exposure\nYounger borrowers are particularly exposed. Among borrowers aged 18–24, BNPL purchases constituted 28% of total unsecured consumer debt during active borrowing months, compared to an average of 17% across all age groups [4]. This concentration of BNPL debt among younger, lower-income, and minority consumers raises important equity concerns about who bears the costs of regulatory inaction."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
     "section": "",
-    "text": "The primary dataset is the CFPB Consumer Complaint Database, a publicly available repository of consumer complaints regarding financial products and services. Complaints are submitted by consumers directly and forwarded to the relevant company for response. The database includes structured fields (complaint type, company response, timeliness of response) as well as unstructured consumer-authored narratives, which are included when the consumer provides consent.\nSource: CFPB Consumer Complaint Database"
+    "text": "📄 Read the Full Paper\n\n\n\nThe complete 20-page research paper is available as a PDF.\nRead in browser   ⬇ Download PDF"
   },
   {
-    "objectID": "data_source/data_source.html#scope-and-coverage",
-    "href": "data_source/data_source.html#scope-and-coverage",
-    "title": "Data Sources",
-    "section": "Scope and Coverage",
-    "text": "Scope and Coverage\nThe analysis focuses on complaints filed against Affirm Holdings, Inc. and Klarna AB, the two largest BNPL providers in the U.S. market, covering the period from January 2023 through April 2026. This window captures the period of significant BNPL market expansion documented in CFPB market reports [1] and encompasses the period during which the CFPB’s interpretive rule was issued and contested.\nThe final dataset contains 13,396 complaints:\n\n\n\nProvider\nNumber of Complaints\n\n\n\n\nAffirm Holdings, Inc.\n11,755\n\n\nKlarna AB\n1,641\n\n\nTotal\n13,396\n\n\n\nNarratives with consumer consent: 4,791 (36% of dataset)."
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
+    "section": "Overview",
+    "text": "Overview\nThis project examines whether the current U.S. regulatory framework adequately protects Buy Now, Pay Later (BNPL) consumers. Using CFPB complaint data, natural language processing of consumer narratives, and a structured regulatory gap analysis, the project documents the scope of consumer harm and evaluates the adequacy of the existing legal framework."
   },
   {
-    "objectID": "data_source/data_source.html#regulatory-documentation",
-    "href": "data_source/data_source.html#regulatory-documentation",
-    "title": "Data Sources",
-    "section": "Regulatory Documentation",
-    "text": "Regulatory Documentation\nFor the regulatory gap analysis, three categories of primary source documentation are used.\n\nTILA / Regulation Z Requirements\nTILA and Regulation Z requirements are drawn from the Code of Federal Regulations (12 CFR Part 1026), specifically provisions:\n\n\n\nSection\nPurpose\n\n\n\n\n§1026.6\nAccount-opening disclosures\n\n\n§1026.7\nPeriodic statements\n\n\n§1026.13\nBilling error rights\n\n\n§1026.60\nCredit card application disclosures\n\n\n§1026.51\nAbility-to-pay assessment\n\n\n\n\n\nAffirm Disclosure Practices\n\nAffirm General Terms of Service\nAffirm Privacy Policy\n\n\n\nKlarna Disclosure Practices\n\nKlarna User Terms\nKlarna Privacy Notice"
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
+    "section": "Abstract",
+    "text": "Abstract\nBuy Now, Pay Later (BNPL) services have reshaped consumer credit in the United States. Younger consumers are especially drawn to platforms like Klarna and Affirm because they offer a frictionless, often “interest-free” alternative to traditional credit, typically without a hard credit check. But that ease of use can make BNPL feel low-risk, encouraging consumers to take on multiple simultaneous loans without fully understanding the obligations involved.\nA major concern is the regulatory gap surrounding these products. Because BNPL providers often classify their offerings as deferred payments rather than loans, they generally fall outside the Truth in Lending Act (TILA), the main federal law governing consumer credit disclosure. As a result, millions of Americans use credit products without the protections credit card users receive, including standardized APR disclosure, clear cost-of-credit statements, and guaranteed dispute rights.\nThis project examines whether the current regulatory framework adequately protects BNPL consumers through three methods: (1) exploratory data analysis of CFPB consumer complaint data to track complaint trends and common issues; (2) natural language processing of complaint narratives to identify recurring harms in consumers’ own words; and (3) a structured regulatory gap analysis comparing BNPL disclosure practices with TILA requirements for credit card issuers. Together, these analyses support policy recommendations aimed at closing the regulatory gap while preserving the accessibility benefits BNPL can provide."
   },
   {
-    "objectID": "data_source/data_source.html#data-processing",
-    "href": "data_source/data_source.html#data-processing",
-    "title": "Data Sources",
-    "section": "Data Processing",
-    "text": "Data Processing\nComplaints were downloaded via the CFPB’s public API and filtered for:\n\nCompany name containing “Affirm” or “Klarna”\nDate range: 2023-01-01 to 2026-04-30\nValid complaint issue classification\n\nAll processing and analysis was conducted in Python using pandas, scikit-learn (for TF-IDF and LDA), and matplotlib/seaborn for visualization."
-  },
-  {
-    "objectID": "conclusions/conclusion.html",
-    "href": "conclusions/conclusion.html",
-    "title": "Conclusions",
-    "section": "",
-    "text": "This project has documented, through quantitative analysis of 13,396 CFPB complaints and 4,791 consumer narratives, that BNPL services are generating significant and growing consumer harm, and that the existing regulatory framework provides consumers almost no mechanism for redress.\n\nComplaint volume grew by more than 100% per year between 2023 and 2025\nCredit reporting errors are the most common category of harm\nCompanies provide substantive relief in fewer than 1% of cases\nConsumers cannot invoke TILA protections because those protections do not apply\nThe language consumers use in their own narratives — “dispute,” “credit report,” “inaccurate,” “FCRA” — maps precisely onto the rights they have under existing law for other credit products, and precisely onto the rights they lack for BNPL"
-  },
-  {
-    "objectID": "conclusions/conclusion.html#what-the-evidence-shows",
-    "href": "conclusions/conclusion.html#what-the-evidence-shows",
-    "title": "Conclusions",
-    "section": "",
-    "text": "This project has documented, through quantitative analysis of 13,396 CFPB complaints and 4,791 consumer narratives, that BNPL services are generating significant and growing consumer harm, and that the existing regulatory framework provides consumers almost no mechanism for redress.\n\nComplaint volume grew by more than 100% per year between 2023 and 2025\nCredit reporting errors are the most common category of harm\nCompanies provide substantive relief in fewer than 1% of cases\nConsumers cannot invoke TILA protections because those protections do not apply\nThe language consumers use in their own narratives — “dispute,” “credit report,” “inaccurate,” “FCRA” — maps precisely onto the rights they have under existing law for other credit products, and precisely onto the rights they lack for BNPL"
-  },
-  {
-    "objectID": "conclusions/conclusion.html#the-gap-is-not-accidental",
-    "href": "conclusions/conclusion.html#the-gap-is-not-accidental",
-    "title": "Conclusions",
-    "section": "The Gap Is Not Accidental",
-    "text": "The Gap Is Not Accidental\nThe regulatory gap analysis confirms that this asymmetry is not incidental. Across all seven disclosure dimensions evaluated, BNPL products either entirely lack or only partially satisfy the requirements that Regulation Z imposes on credit card issuers.\nThe gap is not a technicality; it is a deliberate product design feature that transfers risk from lenders to consumers, and it is growing as the market grows."
-  },
-  {
-    "objectID": "conclusions/conclusion.html#a-path-forward",
-    "href": "conclusions/conclusion.html#a-path-forward",
-    "title": "Conclusions",
-    "section": "A Path Forward",
-    "text": "A Path Forward\nThe three policy recommendations in this project would close the most consequential dimensions of that gap without foreclosing the genuine accessibility benefits that BNPL has brought to underserved consumers:\n\nTILA extension\nMandatory reporting transparency\nFederal dispute resolution standard\n\nThe evidence presented here provides the empirical foundation policymakers need to act. The tools already exist; what is needed is the will to use them."
-  },
-  {
-    "objectID": "conclusions/conclusion.html#limitations",
-    "href": "conclusions/conclusion.html#limitations",
-    "title": "Conclusions",
-    "section": "Limitations",
-    "text": "Limitations\nSeveral limitations exist in this research:\nScope of the complaint database. The CFPB complaint database captures only consumers who filed a formal federal complaint, likely underrepresenting the true scope of harm. Many consumers never file.\nPartial narrative coverage. Complaint narratives are available for only 36% of the dataset (those where the consumer provided consent), so NLP findings should be interpreted as indicative rather than exhaustive.\nDocumentation limits. The regulatory gap analysis relies on publicly available company documentation and may not fully reflect internal practices.\nTwo-provider focus. The analysis covers two providers only (Affirm and Klarna), and findings may not generalize to the broader BNPL market."
-  },
-  {
-    "objectID": "conclusions/conclusion.html#future-research",
-    "href": "conclusions/conclusion.html#future-research",
-    "title": "Conclusions",
-    "section": "Future Research",
-    "text": "Future Research\nFuture research should:\n\nExamine the BNPL industry as a whole\nIncorporate consumer-level data to assess long-term credit impacts of BNPL use\nEvaluate the equity implications of any regulatory intervention\nTrack policy adoption and measure outcomes post-implementation"
+    "objectID": "index.html#project-navigation",
+    "href": "index.html#project-navigation",
+    "title": "Buy Now Pay Later (BNPL) Regulatory Gap",
+    "section": "Project Navigation",
+    "text": "Project Navigation\n\nIntroduction\nData Sources\nExploratory Data Analysis\nNLP Analysis — TF-IDF\nNLP Analysis — Regulatory Terms\nNLP Analysis — LDA Topic Modeling\nRegulatory Gap Analysis\nPolicy Recommendations\nConclusions\n📄 Full Paper (PDF)"
   },
   {
     "objectID": "nlp/tfidf.html",
