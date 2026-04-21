@@ -58,13 +58,3 @@ CFR Part 1026)**, specifically provisions:
 - [Klarna User Terms](https://www.klarna.com/us/legal)
 - Klarna Privacy Notice
 
-## Data Processing
-
-Complaints were downloaded via the CFPB's public API and filtered for:
-
-1. Company name containing "Affirm" or "Klarna"
-2. Date range: 2023-01-01 to 2026-04-30
-3. Valid complaint issue classification
-
-All processing and analysis was conducted in Python using `pandas`, `scikit-learn` (for
-TF-IDF and LDA), and `matplotlib`/`seaborn` for visualization.

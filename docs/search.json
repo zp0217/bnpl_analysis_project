@@ -196,13 +196,6 @@
     "text": "Regulatory Documentation\nFor the regulatory gap analysis, three categories of primary source documentation are used.\n\nTILA / Regulation Z Requirements\nTILA and Regulation Z requirements are drawn from the Code of Federal Regulations (12 CFR Part 1026), specifically provisions:\n\n\n\nSection\nPurpose\n\n\n\n\n§1026.6\nAccount-opening disclosures\n\n\n§1026.7\nPeriodic statements\n\n\n§1026.13\nBilling error rights\n\n\n§1026.60\nCredit card application disclosures\n\n\n§1026.51\nAbility-to-pay assessment\n\n\n\n\n\nAffirm Disclosure Practices\n\nAffirm General Terms of Service\nAffirm Privacy Policy\n\n\n\nKlarna Disclosure Practices\n\nKlarna User Terms\nKlarna Privacy Notice"
   },
   {
-    "objectID": "data_source/data_source.html#data-processing",
-    "href": "data_source/data_source.html#data-processing",
-    "title": "Data Sources",
-    "section": "Data Processing",
-    "text": "Data Processing\nComplaints were downloaded via the CFPB’s public API and filtered for:\n\nCompany name containing “Affirm” or “Klarna”\nDate range: 2023-01-01 to 2026-04-30\nValid complaint issue classification\n\nAll processing and analysis was conducted in Python using pandas, scikit-learn (for TF-IDF and LDA), and matplotlib/seaborn for visualization."
-  },
-  {
     "objectID": "paper/paper.html",
     "href": "paper/paper.html",
     "title": "Full Paper",

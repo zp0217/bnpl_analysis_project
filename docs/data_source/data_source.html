@@ -181,7 +181,6 @@ div.csl-indent {
   <li><a href="#affirm-disclosure-practices" id="toc-affirm-disclosure-practices" class="nav-link" data-scroll-target="#affirm-disclosure-practices">Affirm Disclosure Practices</a></li>
   <li><a href="#klarna-disclosure-practices" id="toc-klarna-disclosure-practices" class="nav-link" data-scroll-target="#klarna-disclosure-practices">Klarna Disclosure Practices</a></li>
   </ul></li>
-  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing">Data Processing</a></li>
   </ul>
 </nav>
     </div>
@@ -296,20 +295,10 @@ div.csl-indent {
 <li><a href="https://www.klarna.com/us/legal">Klarna User Terms</a></li>
 <li>Klarna Privacy Notice</li>
 </ul>
+
+
+
 </section>
-</section>
-<section id="data-processing" class="level2">
-<h2 class="anchored" data-anchor-id="data-processing">Data Processing</h2>
-<p>Complaints were downloaded via the CFPB’s public API and filtered for:</p>
-<ol type="1">
-<li>Company name containing “Affirm” or “Klarna”</li>
-<li>Date range: 2023-01-01 to 2026-04-30</li>
-<li>Valid complaint issue classification</li>
-</ol>
-<p>All processing and analysis was conducted in Python using <code>pandas</code>, <code>scikit-learn</code> (for TF-IDF and LDA), and <code>matplotlib</code>/<code>seaborn</code> for visualization.</p>
-
-
-
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
