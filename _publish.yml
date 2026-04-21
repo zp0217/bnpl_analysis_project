@@ -1,0 +1,4 @@
+- source: project
+  gh-pages:
+    - id: bnpl-analysis
+      url: https://yourusername.github.io/bnpl_analysis

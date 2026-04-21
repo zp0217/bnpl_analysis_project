@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+  resources:                      
+    - paper/bnpl_regulatory_gap.pdf
+author: zoo un park
+
+website:
+  title: BNPL Regulatory Gap Analysis
+  navbar:
+    left:
+      - text: Introduction
+        href: ./introduction/introduction.qmd
+      - text: Data Sources
+        href: ./data_source/data_source.qmd
+      - text: Exploratory Data Analysis
+        href: ./EDA/eda.qmd
+      - text: NLP Analysis
+        menu:
+          - text: TF-IDF Keyword Analysis
+            href: ./nlp/tfidf.qmd
+          - text: Regulatory Term Frequency
+            href: ./nlp/regulatory_terms.qmd
+          - text: LDA Topic Modeling
+            href: ./nlp/lda.qmd
+      - text: Regulatory Gap Analysis
+        href: ./regulatory_gap/gap.qmd
+      - text: Policy Recommendations
+        href: ./policy/policy.qmd
+      - text: Conclusions
+        href: ./conclusions/conclusion.qmd
+    right:
+      - text: "📄 Full Paper"
+        href: ./paper/paper.qmd
+    collapse: true
+
+
+format:
+  html:
+    theme: cosmo
+    bibliography: ./assets/references.bib
+    csl: ./assets/nature.csl
+    toc: true
+    code-fold: true
+    code-tools: false
+    code-block-bg: true
+    code-line-numbers: false
+execute:
+  echo: false

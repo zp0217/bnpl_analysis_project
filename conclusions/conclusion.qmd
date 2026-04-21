@@ -1,0 +1,68 @@
+---
+title: "Conclusions"
+---
+
+## What the Evidence Shows
+
+This project has documented, through quantitative analysis of 13,396 CFPB complaints and
+4,791 consumer narratives, that BNPL services are generating significant and growing
+consumer harm, and that the existing regulatory framework provides consumers almost no
+mechanism for redress.
+
+- Complaint volume grew by more than 100% per year between 2023 and 2025
+- Credit reporting errors are the most common category of harm
+- Companies provide substantive relief in fewer than 1% of cases
+- Consumers cannot invoke TILA protections because those protections do not apply
+- The language consumers use in their own narratives — "dispute," "credit report,"
+  "inaccurate," "FCRA" — maps precisely onto the rights they have under existing law for
+  other credit products, and precisely onto the rights they lack for BNPL
+
+## The Gap Is Not Accidental
+
+The [regulatory gap analysis](../regulatory_gap/gap.qmd) confirms that this asymmetry is
+not incidental. Across all seven disclosure dimensions evaluated, BNPL products either
+entirely lack or only partially satisfy the requirements that Regulation Z imposes on
+credit card issuers.
+
+The gap is not a technicality; it is a deliberate product design feature that transfers
+risk from lenders to consumers, and it is growing as the market grows.
+
+## A Path Forward
+
+The [three policy recommendations](../policy/policy.qmd) in this project would close the
+most consequential dimensions of that gap without foreclosing the genuine accessibility
+benefits that BNPL has brought to underserved consumers:
+
+1. TILA extension
+2. Mandatory reporting transparency
+3. Federal dispute resolution standard
+
+The evidence presented here provides the empirical foundation policymakers need to act.
+The tools already exist; what is needed is the will to use them.
+
+## Limitations
+
+Several limitations exist in this research:
+
+**Scope of the complaint database.** The CFPB complaint database captures only consumers
+who filed a formal federal complaint, likely underrepresenting the true scope of harm.
+Many consumers never file.
+
+**Partial narrative coverage.** Complaint narratives are available for only 36% of the
+dataset (those where the consumer provided consent), so NLP findings should be interpreted
+as indicative rather than exhaustive.
+
+**Documentation limits.** The regulatory gap analysis relies on publicly available company
+documentation and may not fully reflect internal practices.
+
+**Two-provider focus.** The analysis covers two providers only (Affirm and Klarna), and
+findings may not generalize to the broader BNPL market.
+
+## Future Research
+
+Future research should:
+
+- Examine the BNPL industry as a whole
+- Incorporate consumer-level data to assess long-term credit impacts of BNPL use
+- Evaluate the equity implications of any regulatory intervention
+- Track policy adoption and measure outcomes post-implementation

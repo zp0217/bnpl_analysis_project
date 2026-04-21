@@ -1,0 +1,70 @@
+---
+title: "Data Sources"
+---
+
+## Primary Dataset: CFPB Consumer Complaint Database
+
+The primary dataset is the CFPB Consumer Complaint Database, a publicly available
+repository of consumer complaints regarding financial products and services. Complaints are
+submitted by consumers directly and forwarded to the relevant company for response. The
+database includes structured fields (complaint type, company response, timeliness of
+response) as well as unstructured consumer-authored narratives, which are included when the
+consumer provides consent.
+
+**Source:** [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+
+## Scope and Coverage
+
+The analysis focuses on complaints filed against **Affirm Holdings, Inc.** and **Klarna AB**,
+the two largest BNPL providers in the U.S. market, covering the period from **January 2023
+through April 2026**. This window captures the period of significant BNPL market expansion
+documented in CFPB market reports [@cfpb2025b] and encompasses the period during which the
+CFPB's interpretive rule was issued and contested.
+
+The final dataset contains **13,396 complaints**:
+
+| Provider | Number of Complaints |
+|:---------|---------------------:|
+| Affirm Holdings, Inc. | 11,755 |
+| Klarna AB | 1,641 |
+| **Total** | **13,396** |
+
+Narratives with consumer consent: **4,791** (36% of dataset).
+
+## Regulatory Documentation
+
+For the regulatory gap analysis, three categories of primary source documentation are used.
+
+### TILA / Regulation Z Requirements
+
+TILA and Regulation Z requirements are drawn from the **Code of Federal Regulations (12
+CFR Part 1026)**, specifically provisions:
+
+| Section | Purpose |
+|:--------|:--------|
+| §1026.6 | Account-opening disclosures |
+| §1026.7 | Periodic statements |
+| §1026.13 | Billing error rights |
+| §1026.60 | Credit card application disclosures |
+| §1026.51 | Ability-to-pay assessment |
+
+### Affirm Disclosure Practices
+
+- [Affirm General Terms of Service](https://www.affirm.com/legal/terms)
+- Affirm Privacy Policy
+
+### Klarna Disclosure Practices
+
+- [Klarna User Terms](https://www.klarna.com/us/legal)
+- Klarna Privacy Notice
+
+## Data Processing
+
+Complaints were downloaded via the CFPB's public API and filtered for:
+
+1. Company name containing "Affirm" or "Klarna"
+2. Date range: 2023-01-01 to 2026-04-30
+3. Valid complaint issue classification
+
+All processing and analysis was conducted in Python using `pandas`, `scikit-learn` (for
+TF-IDF and LDA), and `matplotlib`/`seaborn` for visualization.

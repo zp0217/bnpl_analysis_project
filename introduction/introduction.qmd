@@ -1,0 +1,70 @@
+---
+title: "Introduction"
+---
+
+## BNPL's Rise in Consumer Finance
+
+Buy Now Pay Later has emerged as one of the fastest-growing segments of consumer finance
+in the United States. Between 2019 and 2023, BNPL loan originations expanded dramatically,
+with six major lenders alone originating 335.8 million loans totaling \$45.2 billion in 2023,
+at an average loan size of \$135 [@cfpb2025b]. The appeal of BNPL is generally
+straightforward: consumers split a purchase into four equal, interest-free installments with
+no hard credit check and near-instant approval at the digital checkout. For consumers who
+are credit-constrained or credit-averse, BNPL functions as a practical and psychologically
+accessible alternative to traditional credit.
+
+## The Structural Asymmetry
+
+Yet this accessibility comes with a malformed structural asymmetry that became
+controversial upon regulators. Unlike credit cards, which are explicitly governed by the
+Truth in Lending Act (TILA, 15 U.S.C. §§1601 et seq.) and its implementing Regulation Z
+(12 CFR Part 1026), BNPL products occupy an ambiguous legal category.
+
+Because BNPL products are typically structured as four-installment, zero-interest deferred
+payment agreements rather than conventional loans, they have historically fallen outside
+TILA's mandatory disclosure requirements [@cfpb2015; @crs2024]. The result is that millions
+of Americans are using credit products with none of the transparency protections
+automatically afforded to credit card users:
+
+- No mandatory APR disclosure
+- No standardized cost-of-credit statement
+- No legally guaranteed right to dispute charges
+
+## Research Question and Approach
+
+This project aims to investigate whether the current regulatory framework adequately
+protects BNPL consumers. Using CFPB complaint data, natural language processing of
+consumer narratives, and a structured regulatory gap analysis, the project documents the
+scope of consumer harm and evaluates the adequacy of the existing legal framework. The
+analysis concludes with policy recommendations.
+
+## Literature Review
+
+### Market Growth
+
+The BNPL market has grown rapidly since 2019, when it first gained significant traction
+in the United States. By 2022, more than one-fifth (21.2%) of consumers with a credit
+record had used a BNPL loan at least once, up from 17.6% in 2021 [@cfpb2025a].
+
+### Who Uses BNPL
+
+CFPB research has documented that BNPL borrowers are disproportionately drawn from
+financially vulnerable populations:
+
+- Black, Hispanic, and female consumers are significantly more likely to use BNPL
+  compared to white, non-Hispanic, and male consumers
+- Usage is highest among households earning between \$20,001 and \$50,000 annually
+  [@cfpb2023]
+- Approximately 63% of BNPL borrowers held multiple simultaneous BNPL loans at some point
+  during 2022 [@cfpb2025a]
+
+The CFPB flagged this multi-loan pattern as a significant risk given the absence of any
+cross-lender reporting infrastructure.
+
+### Young Borrowers' Exposure
+
+Younger borrowers are particularly exposed. Among borrowers aged 18–24, BNPL purchases
+constituted 28% of total unsecured consumer debt during active borrowing months, compared
+to an average of 17% across all age groups [@cfpb2025a]. This concentration of BNPL debt
+among younger, lower-income, and minority consumers raises important equity concerns about
+who bears the costs of regulatory inaction.

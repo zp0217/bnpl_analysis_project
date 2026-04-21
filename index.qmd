@@ -1,0 +1,58 @@
+---
+title: "Buy Now Pay Later (BNPL) Regulatory Gap"
+subtitle: "Evidence for Consumer Protection Reform from CFPB Complaints"
+---
+
+::: {.callout-tip icon=false}
+## 📄 Read the Full Paper
+
+The complete 20-page research paper is available as a PDF.
+
+<a class="btn btn-primary btn-lg" href="./paper/paper.qmd">Read in browser</a>
+&nbsp;
+<a class="btn btn-outline-primary btn-lg" href="./paper/bnpl_regulatory_gap.pdf" download>⬇ Download PDF</a>
+:::
+
+## Overview
+
+This project examines whether the current U.S. regulatory framework adequately protects
+Buy Now, Pay Later (BNPL) consumers. Using CFPB complaint data, natural language processing
+of consumer narratives, and a structured regulatory gap analysis, the project documents the
+scope of consumer harm and evaluates the adequacy of the existing legal framework.
+
+## Abstract
+
+Buy Now, Pay Later (BNPL) services have reshaped consumer credit in the United States.
+Younger consumers are especially drawn to platforms like Klarna and Affirm because they offer
+a frictionless, often "interest-free" alternative to traditional credit, typically without a hard
+credit check. But that ease of use can make BNPL feel low-risk, encouraging consumers to take
+on multiple simultaneous loans without fully understanding the obligations involved.
+
+A major concern is the regulatory gap surrounding these products. Because BNPL providers
+often classify their offerings as deferred payments rather than loans, they generally fall
+outside the Truth in Lending Act (TILA), the main federal law governing consumer credit
+disclosure. As a result, millions of Americans use credit products without the protections
+credit card users receive, including standardized APR disclosure, clear cost-of-credit
+statements, and guaranteed dispute rights.
+
+This project examines whether the current regulatory framework adequately protects BNPL
+consumers through three methods: (1) exploratory data analysis of CFPB consumer complaint
+data to track complaint trends and common issues; (2) natural language processing of
+complaint narratives to identify recurring harms in consumers' own words; and (3) a
+structured regulatory gap analysis comparing BNPL disclosure practices with TILA
+requirements for credit card issuers. Together, these analyses support policy recommendations
+aimed at closing the regulatory gap while preserving the accessibility benefits BNPL can
+provide.
+
+## Project Navigation
+
+- [Introduction](./introduction/introduction.qmd)
+- [Data Sources](./data_source/data_source.qmd)
+- [Exploratory Data Analysis](./EDA/eda.qmd)
+- [NLP Analysis — TF-IDF](./nlp/tfidf.qmd)
+- [NLP Analysis — Regulatory Terms](./nlp/regulatory_terms.qmd)
+- [NLP Analysis — LDA Topic Modeling](./nlp/lda.qmd)
+- [Regulatory Gap Analysis](./regulatory_gap/gap.qmd)
+- [Policy Recommendations](./policy/policy.qmd)
+- [Conclusions](./conclusions/conclusion.qmd)
+- [📄 Full Paper (PDF)](./paper/paper.qmd)

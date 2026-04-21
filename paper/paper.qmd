@@ -1,0 +1,47 @@
+---
+title: "Full Paper"
+---
+
+The complete research paper is embedded below. You can read it directly in your browser,
+open it in a new tab, or download a copy for offline reading.
+
+<p>
+  <a class="btn btn-primary" href="bnpl_regulatory_gap.pdf" download>
+    📄 Download PDF
+  </a>
+  &nbsp;
+  <a class="btn btn-outline-secondary" href="bnpl_regulatory_gap.pdf" target="_blank">
+    🔗 Open in new tab
+  </a>
+</p>
+
+<embed src="bnpl_regulatory_gap.pdf"
+       type="application/pdf"
+       width="100%"
+       height="900px"
+       style="border: 1px solid #ddd; border-radius: 6px;" />
+
+::: {.callout-note}
+If the PDF does not load above, your browser may not support inline PDF viewing.
+Please use the **Download PDF** button to view it in your default PDF reader.
+:::
+
+## Paper Details
+
+- **Title:** Buy Now Pay Later (BNPL) Regulatory Gap: Evidence for Consumer Protection Reform from CFPB Complaints
+- **Author:** Zoo un Park
+- **Course:** DSAN 5450 — Data Ethics and Policy
+- **Institution:** Georgetown University
+- **Pages:** 20
+
+## Related Pages
+
+For interactive exploration of the findings, see:
+
+- [Introduction](../introduction/introduction.qmd)
+- [Exploratory Data Analysis](../EDA/eda.qmd)
+- [NLP Analysis — TF-IDF](../nlp/tfidf.qmd)
+- [NLP Analysis — LDA Topic Modeling](../nlp/lda.qmd)
+- [Regulatory Gap Analysis](../regulatory_gap/gap.qmd)
+- [Policy Recommendations](../policy/policy.qmd)
+- [Conclusions](../conclusions/conclusion.qmd)

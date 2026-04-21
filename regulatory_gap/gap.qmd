@@ -1,0 +1,70 @@
+---
+title: "Regulatory Gap Analysis"
+---
+
+## Overview
+
+This page compares the mandatory disclosure and consumer protection requirements imposed
+by TILA and Regulation Z on credit card issuers against the documented disclosure
+practices of Affirm and Klarna. The comparison is drawn from review of Regulation Z (12
+CFR Part 1026), company terms of service, and user-facing documentation as of early 2026.
+
+## Seven-Dimension Comparison
+
+| Disclosure Requirement | TILA / Regulation Z (Credit Cards) | Affirm | Klarna |
+|:---------|:------|:------|:------|
+| Mandatory APR Disclosure | Yes — standardized, must appear prominently at origination (Reg Z § 1026.6) | No — pay-in-4 marketed as "0% interest"; APR not disclosed | No — same structure; APR absent from checkout flow |
+| Standardized Cost-of-Credit Statement | Yes — finance charge, total amount financed, APR in uniform format | No — no standardized cost summary provided to consumers | No — no standardized disclosure at point of sale |
+| Right to Dispute Billing Errors | Yes — Fair Credit Billing Act guarantees 60-day dispute window with mandatory investigation | No — dispute process exists internally but not federally mandated | No — voluntary dispute process; no legally enforceable timeline |
+| Credit Bureau Reporting Notification | Yes — adverse action and reporting practices must be disclosed | Inconsistent — some accounts reported, some not; no advance notice | Inconsistent — soft-pull underwriting; reporting varies by product |
+| Late Fee Pre-Disclosure | Yes — all fees must be disclosed before credit is extended | Partial — late fees disclosed in terms of service, not at checkout | Partial — late fees disclosed in terms of service, not at checkout |
+| Periodic Account Statements | Yes — monthly statements required for open-end credit | No — no TILA-mandated periodic statements | No — app-based notifications only; not TILA-compliant |
+| Ability-to-Pay Assessment | Required for open-end credit under Regulation Z | No — soft pull only; no income verification for pay-in-4 | No — instant approval without income verification |
+
+: Regulatory Gap Analysis: TILA Requirements vs. BNPL Practice (Affirm and Klarna). Sources: 12 CFR Part 1026; Affirm Terms of Service (2026); Klarna User Agreement (2026). {#tbl-regulatory-gap}
+
+## Systematic Non-Compliance
+
+The table reveals a systematic pattern: across all seven disclosure dimensions, BNPL
+products either entirely lack or only partially satisfy requirements that are mandatory
+for credit card issuers under Regulation Z. The most consequential gaps are in:
+
+1. **APR disclosure**
+2. **Standardized cost-of-credit statements**
+3. **Dispute rights**
+
+These three dimensions are most directly relevant to the consumer harms documented in the
+[EDA](../EDA/eda.qmd) and [NLP analyses](../nlp/tfidf.qmd).
+
+## Why Dispute Rights Matter Most
+
+The absence of a legally guaranteed dispute right is particularly significant. Under the
+**Fair Credit Billing Act**, implemented through Regulation Z, credit card holders have a
+federally guaranteed 60-day window to dispute billing errors, with a mandatory
+investigation obligation imposed on the creditor.
+
+BNPL consumers have no equivalent right. When they dispute transactions, they are relying
+on the voluntary internal processes of companies that — as shown in the EDA — provide
+substantive relief in fewer than 1% of cases. The complaint response data constitutes
+empirical evidence of what the absence of that right looks like in practice.
+
+## Credit Bureau Reporting Opacity
+
+The inconsistency of credit bureau reporting practices across BNPL providers creates a
+further asymmetry. Because some BNPL transactions are reported to credit bureaus and some
+are not — and because consumers are not reliably notified which applies — BNPL use can
+have unpredictable effects on credit scores. This opacity is inconsistent with the
+transparency norms embodied in the FCRA and with the disclosure requirements that TILA
+imposes on other consumer credit products.
+
+## Linking Evidence to the Gap
+
+| Evidence from the Data | Underlying Cause |
+|:-----------------------|:-----------------|
+| 99.2% of complaints closed with no relief | No federally mandated dispute timeline |
+| Credit reporting errors = 25% of complaints | No mandatory reporting standards |
+| 0.03% relief rate on credit reporting errors | No obligation to investigate billing errors |
+| Only 3.1% of narratives invoke TILA terms | TILA rights do not apply to pay-in-4 BNPL |
+
+The pattern is not incidental. It is a deliberate product design feature that transfers
+risk from lenders to consumers, and it is growing as the market grows.

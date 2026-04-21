@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
+  <info>
+    <title>Nature (placeholder)</title>
+    <id>http://www.zotero.org/styles/nature-placeholder</id>
+    <link href="http://www.zotero.org/styles/nature" rel="self"/>
+    <category citation-format="numeric"/>
+    <category field="generic-base"/>
+    <summary>Placeholder Nature-style CSL. Download the real nature.csl from https://www.zotero.org/styles/nature and replace this file.</summary>
+    <updated>2026-01-01T00:00:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name initialize-with=". " delimiter-precedes-last="never" delimiter=", " name-as-sort-order="all"/>
+    </names>
+  </macro>
+  <macro name="editor">
+    <names variable="editor">
+      <name initialize-with=". " delimiter-precedes-last="never" delimiter=", " name-as-sort-order="all"/>
+    </names>
+  </macro>
+  <macro name="year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=",">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography entry-spacing="0" second-field-align="flush" et-al-min="6" et-al-use-first="1">
+    <layout suffix=".">
+      <text variable="citation-number" suffix=". "/>
+      <text macro="author" suffix=". "/>
+      <text variable="title" suffix=". "/>
+      <group delimiter=" ">
+        <text variable="container-title" font-style="italic"/>
+        <text variable="volume" font-weight="bold"/>
+        <text variable="page"/>
+        <text macro="year" prefix="(" suffix=")"/>
+      </group>
+      <text variable="URL" prefix=" " />
+    </layout>
+  </bibliography>
+</style>

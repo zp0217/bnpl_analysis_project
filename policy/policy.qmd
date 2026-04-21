@@ -1,0 +1,112 @@
+---
+title: "Policy Recommendations"
+---
+
+## Guiding Principles
+
+The evidence presented in this project supports three specific, implementable policy
+recommendations directed at Congress and the CFPB. These recommendations are calibrated
+to address documented harms without eliminating the accessibility benefits that BNPL has
+delivered to underserved consumers [@cfpb2023].
+
+They do **not**:
+
+- Impose interest rate caps
+- Require ability-to-pay assessments for all BNPL products
+- Mandate universal credit bureau reporting
+
+...changes that could reduce product availability for credit-constrained consumers.
+
+The goal is not to make BNPL look like a credit card; it is to ensure that consumers
+using BNPL have the same basic informational and procedural rights that consumers using
+credit cards already enjoy.
+
+## Recommendation 1: Statutory Amendment Clarifying TILA Coverage
+
+A statutory amendment should clarify that BNPL products meet a defined threshold: any
+deferred payment product resulting in a consumer credit obligation should be subject to
+TILA's mandatory disclosure requirements.
+
+At a minimum, this should include:
+
+- Mandatory APR disclosure
+- Standardized cost-of-credit statements
+- Written dispute resolution procedures
+
+### Why This Matters
+
+This recommendation directly addresses the findings that disclosure complaints are
+growing and that consumers cannot invoke TILA rights because those rights do not apply to
+BNPL. The low rate at which consumers invoke TILA-specific terms (3.1% of narratives) is
+itself a symptom: consumers cannot assert rights they do not have.
+
+### What It Does Not Do
+
+It does not require BNPL providers to charge interest or restructure their products. It
+requires only that they disclose the full terms of the credit they are extending in a
+standardized, consumer-readable format. Providers can continue to offer zero-interest
+pay-in-4 products; they must simply disclose those terms with the same clarity and
+consistency that is required of credit card issuers.
+
+## Recommendation 2: Mandate Consistent Credit Bureau Reporting with Consumer Notification
+
+Credit reporting errors are the most common and least-resolved category of BNPL
+complaints, accounting for over 25% of all complaints and receiving substantive relief in
+fewer than 1% of cases. The root cause is the inconsistency of current BNPL reporting
+practices: some providers furnish data to credit bureaus and some do not, and consumers
+have no way to know which applies to their transaction.
+
+The CFPB should issue a rule, within its existing authority under the Fair Credit
+Reporting Act, requiring that:
+
+**(a)** BNPL lenders who furnish data to credit bureaus do so consistently and accurately.
+
+**(b)** Consumers are notified at the point of origination, in plain language, whether
+their BNPL activity will be reported to credit bureaus.
+
+### What This Preserves
+
+This recommendation would not require all BNPL providers to report to credit bureaus — a
+requirement that could harm consumers with thin credit files if BNPL activity were to
+generate negative marks. It would require only transparency: consumers should know in
+advance whether a BNPL transaction will affect their credit profile.
+
+## Recommendation 3: Establish a Federal BNPL Dispute Resolution Standard
+
+99.2% of BNPL complaints are closed without any substantive relief. This outcome is
+predictable in a system where companies face no legal obligation to provide remedy.
+
+Congress should establish — either through TILA amendment or standalone legislation — a
+minimum dispute resolution standard for BNPL products modeled on the Fair Credit Billing
+Act's existing framework for credit cards.
+
+### Required Elements
+
+**(a)** A defined dispute investigation timeline. The FCBA's 30/90-day framework is an
+appropriate model.
+
+**(b)** A written notice requirement informing consumers of the investigation outcome.
+
+**(c)** A consumer right to escalate unresolved disputes to the CFPB, with the CFPB
+empowered to enforce resolution obligations.
+
+### Why Voluntary Frameworks Fail
+
+The NLP analysis reveals that complaints involving credit reporting errors — the category
+that receives almost no relief under the current framework — are structurally different
+from complaints that companies do resolve. Voluntary resolution works when the remedy is
+within the company's direct control (refund a purchase, reverse a charge). It fails when
+the remedy requires cooperation with external systems (credit bureaus, collection
+agencies) that only a legal obligation can compel.
+
+This is not a failure of company willingness; it is a failure of legal obligation. A
+federal dispute resolution standard would convert a currently unenforceable consumer
+expectation into a legally binding company obligation.
+
+## Summary of Recommendations
+
+| # | Recommendation | Primary Authority | Target Finding |
+|:--|:---------------|:------------------|:---------------|
+| 1 | TILA coverage for BNPL disclosure | Congressional amendment | Low TILA-term invocation (3.1%) |
+| 2 | Credit reporting transparency rule | CFPB under FCRA | 25% of complaints; <1% resolved |
+| 3 | Federal dispute resolution standard | Congress + CFPB enforcement | 99.2% closed with no relief |
