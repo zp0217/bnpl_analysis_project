@@ -1,6 +1,6 @@
 # BNPL Regulatory Gap Analysis
 
-Website: https://zp17.github.io/bnpl_analysis/
+Website: https://zp0217.github.io/bnpl_analysis_project/
 
 ## Project
 
