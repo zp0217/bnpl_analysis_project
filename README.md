@@ -6,9 +6,6 @@ Website: https://zp17.github.io/bnpl_analysis/
 
 **Buy Now Pay Later (BNPL) Regulatory Gap: Evidence for Consumer Protection Reform from CFPB Complaints**
 
-Zoo un Park
-DSAN 5450 — Data Ethics and Policy
-Georgetown University
 
 ## About
 
@@ -25,7 +22,6 @@ bnpl_analysis/
 ├── _quarto.yml            # Site configuration
 ├── _publish.yml           # Publish target (gh-pages)
 ├── index.qmd              # Homepage
-├── about/                 # About the author
 ├── introduction/          # Introduction + literature review
 ├── data_source/           # Data sources and scope
 ├── EDA/                   # Exploratory data analysis
@@ -33,7 +29,7 @@ bnpl_analysis/
 ├── regulatory_gap/        # TILA vs. BNPL comparison
 ├── policy/                # Policy recommendations
 ├── conclusions/           # Conclusions and limitations
-├── assets/                # references.bib, nature.csl
+├── assets/                # references.bib, nature.csl(reference for paper) 
 ├── image/                 # Figures (PNG)
 ├── data/                  # Raw and processed data
 └── docs/                  # Rendered site (GitHub Pages serves from here)
